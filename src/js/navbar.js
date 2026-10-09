@@ -4,7 +4,8 @@
    on every page, and wires up its behaviour.
 ============================================ */
 (function () {
-  var inPages = window.location.pathname.indexOf('/pages/') !== -1;
+  var normPath = (window.location.pathname || '').replace(/\\/g, '/');
+  var inPages = normPath.indexOf('/pages/') !== -1 || normPath.indexOf('pages/') !== -1;
   var BASE = inPages ? '../' : '';
   window.SF_BASE = BASE;
 
@@ -16,23 +17,25 @@
   }
   var homeActive = (file === 'index.html' || file === 'home-2.html') ? ' class="active"' : '';
 
+  // Ensure favicon is set in document head
+  if (!document.querySelector('link[rel*="icon"]')) {
+    var fav = document.createElement('link');
+    fav.rel = 'icon';
+    fav.type = 'image/png';
+    fav.href = url('assets/logo.png');
+    document.head.appendChild(fav);
+  }
+
   var navHTML =
     '<nav id="navbar" class="site-navbar" role="navigation" aria-label="Main navigation">' +
       '<div class="nav-inner">' +
         '<a href="' + url('index.html') + '" class="nav-logo" aria-label="SkillForge home">' +
-          '<div class="nav-logo-mark" aria-hidden="true"><span>S</span></div>' +
+          '<img class="nav-logo-mark" src="' + url('assets/logo.png') + '" alt="SkillForge Logo" width="38" height="38">' +
           '<span class="nav-logo-text">SKILL<em>FORGE</em></span>' +
         '</a>' +
         '<ul class="nav-links" role="list">' +
-          '<li class="has-dropdown">' +
-            '<a href="' + url('index.html') + '"' + homeActive + '>Home' +
-              '<svg class="caret" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>' +
-            '</a>' +
-            '<ul class="dropdown" role="list">' +
-              '<li><a href="' + url('index.html') + '">Home 1 — General</a></li>' +
-              '<li><a href="' + url('pages/home-2.html') + '">Home 2 — Renewable Niche</a></li>' +
-            '</ul>' +
-          '</li>' +
+          '<li><a href="' + url('index.html') + '"' + activeFor('index.html') + '>Home</a></li>' +
+          '<li><a href="' + url('pages/home-2.html') + '"' + activeFor('home-2.html') + '>Home 2</a></li>' +
           '<li><a href="' + url('pages/about.html') + '"' + activeFor('about.html') + '>About</a></li>' +
           '<li><a href="' + url('pages/services.html') + '"' + activeFor('services.html') + '>Services</a></li>' +
           '<li><a href="' + url('pages/blog.html') + '"' + activeFor('blog.html') + '>Blog</a></li>' +
@@ -47,6 +50,7 @@
           '<button type="button" class="nav-icon-btn nav-dir-btn" data-dir-toggle aria-label="Toggle text direction" title="Toggle direction">' +
             '<span class="dir-ltr">LTR</span><span class="dir-rtl">RTL</span>' +
           '</button>' +
+          '<a href="' + url('pages/login.html') + '" class="nav-login"' + activeFor('login.html') + '>Login</a>' +
           '<a href="' + url('pages/contact.html') + '" class="nav-join">Enroll Now</a>' +
           '<button class="hamburger" id="hamburger-btn" aria-label="Toggle mobile menu" aria-expanded="false">' +
             '<span></span><span></span><span></span>' +
@@ -74,6 +78,8 @@
         '<a href="' + url('pages/pricing.html') + '">Pricing</a>' +
         '<a href="' + url('pages/faq.html') + '">FAQ</a>' +
         '<a href="' + url('pages/contact.html') + '">Contact</a>' +
+        '<a href="' + url('pages/login.html') + '"' + activeFor('login.html') + '>Student Login</a>' +
+        '<a href="' + url('pages/signup.html') + '"' + activeFor('signup.html') + '>Sign Up</a>' +
         '<div class="mobile-menu-actions">' +
           '<a href="' + url('pages/contact.html') + '" class="btn btn-primary">Enroll Now</a>' +
         '</div>' +

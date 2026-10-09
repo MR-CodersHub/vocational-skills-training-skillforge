@@ -3,7 +3,9 @@
    Injects ONE shared footer into #site-footer on every page.
 ============================================ */
 (function () {
-  var BASE = window.SF_BASE || '';
+  var normPath = (window.location.pathname || '').replace(/\\/g, '/');
+  var inPages = normPath.indexOf('/pages/') !== -1 || normPath.indexOf('pages/') !== -1;
+  var BASE = window.SF_BASE !== undefined ? window.SF_BASE : (inPages ? '../' : '');
   function url(path) { return BASE + path; }
 
   var social =
@@ -19,10 +21,10 @@
       '<div class="container">' +
         '<div class="footer-grid">' +
           '<div class="footer-brand">' +
-            '<div class="footer-logo">' +
-              '<div class="nav-logo-mark" aria-hidden="true"><span>S</span></div>' +
+            '<a href="' + url('index.html') + '" class="footer-logo" aria-label="SkillForge home">' +
+              '<img class="nav-logo-mark" src="' + url('assets/logo.png') + '" alt="SkillForge Logo" width="38" height="38">' +
               '<span class="nav-logo-text" style="color:#fff">SKILL<em>FORGE</em></span>' +
-            '</div>' +
+            '</a>' +
             '<p class="footer-tagline">A vocational skills training institute built for people who want practical training, recognised certification, and real employment.</p>' +
             social +
           '</div>' +
@@ -34,6 +36,8 @@
               '<a href="' + url('pages/pricing.html') + '">Pricing</a>' +
               '<a href="' + url('pages/blog.html') + '">Blog</a>' +
               '<a href="' + url('pages/faq.html') + '">FAQ</a>' +
+              '<a href="' + url('pages/login.html') + '">Student Login</a>' +
+              '<a href="' + url('pages/signup.html') + '">Sign Up</a>' +
             '</nav>' +
           '</div>' +
           '<div class="footer-col">' +
