@@ -427,6 +427,31 @@ window.SF_DATA = (function () {
         'Consistency of practice. Whichever route you choose, hands-on hours are what build skill.',
         'Pick the route that fits your life — then commit fully.'
       ]
+    }, 
+     {
+      id: 'how-to-choose-a-trade',
+      title: 'How to Choose the Right Trade for Your Future',
+      category: 'Career',
+      date: '12 Jan 2026',
+      author: 'Admissions Team',
+      readTime: '6 min read',
+      image: 'https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=900&q=85&auto=format&fit=crop',
+      excerpt: 'Unsure where to start? Here is a practical framework for matching your interests, strengths and local job demand to a trade that pays.',
+      tags: ['Career', 'Beginners', 'Advice'],
+      content: [
+        'Choosing a trade is one of the highest-return decisions you can make. With the right fit, training leads quickly to steady work; with the wrong fit, motivation fades. This guide walks you through a simple, practical framework.',
+        '## Start with what you enjoy doing',
+        'Think about the tasks you naturally gravitate towards. Do you enjoy fixing things with your hands, working outdoors, solving electrical puzzles, or organising systems? Your answer narrows the field quickly.',
+        '## Match strengths, not just dreams',
+        'Physical stamina, attention to detail and comfort with numbers all matter. Be honest about your strengths, and pick a trade where your natural abilities give you an early advantage.',
+        '## Check local demand and pay',
+        'Look at job listings in your area. Which trades appear most often? What are entry-level wages? Training in a high-demand trade means faster placement and more negotiating power.',
+        '## Try before you commit',
+        'Visit a campus, sit in on a workshop, or take a short taster course. A single afternoon can tell you more than months of guessing.',
+        '## Talk to people already working',
+        'Ask technicians what a normal day looks like, what they wish they had learned earlier, and what employers look for. Their answers are gold.',
+        'Whatever you choose, remember that skills compound. Pick a direction, start training, and refine as you go.'
+      ]
     }
   ];
 

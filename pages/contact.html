@@ -51,7 +51,7 @@
   </section>
 
   <!-- FORM + INFO -->
-  <section aria-label="Enquiry form">
+  <section aria-label="Enquiry form" style="padding: 3rem 0;">
     <div class="container contact-layout">
       <div class="contact-info reveal-left">
         <div class="eyebrow-row"><div class="orange-line"></div><span class="eyebrow">Enroll or Enquire</span></div>
@@ -134,69 +134,10 @@
   </section>
 
   <!-- MAP -->
-  <section aria-label="Campus location">
+  <section aria-label="Campus location" style="padding-bottom: 5rem;">
     <div class="container">
       <div class="map-embed reveal">
         <iframe title="SkillForge campus map" loading="lazy" src="https://www.openstreetmap.org/export/embed.html?bbox=-0.14%2C51.49%2C-0.10%2C51.52&amp;layer=mapnik"></iframe>
-      </div>
-    </div>
-  </section>
-
-  <!-- STUDENT PORTAL (AUTH) -->
-  <section aria-label="Student portal">
-    <div class="container">
-      <div class="testimonials-header reveal" style="text-align:center;align-items:center;">
-        <div class="eyebrow-row" style="justify-content:center;"><div class="orange-line"></div><span class="eyebrow">Student Portal</span></div>
-        <h2 class="display-md">LOGIN OR<br/>CREATE AN ACCOUNT</h2>
-      </div>
-      <div class="auth-card reveal" style="max-width:560px;">
-        <div class="auth-tabs" data-tabs role="tablist">
-          <button type="button" class="auth-tab is-active" data-tab="login" role="tab">Login</button>
-          <button type="button" class="auth-tab" data-tab="signup" role="tab">Sign Up</button>
-        </div>
-
-        <div class="auth-panel is-active" data-panel="login">
-          <form class="validate-form" novalidate
-                data-success-message="Welcome back! You are now signed in."
-                data-error-message="Please check your login details and try again.">
-            <div class="form-group">
-              <label for="login-email">Email Address <span>*</span></label>
-              <input type="email" id="login-email" name="loginEmail" placeholder="you@example.com" required />
-              <span class="form-error" data-error-for="login-email"></span>
-            </div>
-            <div class="form-group">
-              <label for="login-password">Password <span>*</span></label>
-              <input type="password" id="login-password" name="loginPassword" placeholder="Your password" required minlength="6" />
-              <span class="form-error" data-error-for="login-password"></span>
-            </div>
-            <button type="submit" class="btn btn-primary btn-block">Login</button>
-            <div class="form-status" role="status" aria-live="polite" hidden></div>
-          </form>
-        </div>
-
-        <div class="auth-panel" data-panel="signup">
-          <form class="validate-form" novalidate
-                data-success-message="Account created! Check your email to verify your address."
-                data-error-message="Please correct the highlighted fields and try again.">
-            <div class="form-group">
-              <label for="signup-name">Full Name <span>*</span></label>
-              <input type="text" id="signup-name" name="signupName" placeholder="Your name" required minlength="2" />
-              <span class="form-error" data-error-for="signup-name"></span>
-            </div>
-            <div class="form-group">
-              <label for="signup-email">Email Address <span>*</span></label>
-              <input type="email" id="signup-email" name="signupEmail" placeholder="you@example.com" required />
-              <span class="form-error" data-error-for="signup-email"></span>
-            </div>
-            <div class="form-group">
-              <label for="signup-password">Password <span>*</span></label>
-              <input type="password" id="signup-password" name="signupPassword" placeholder="At least 6 characters" required minlength="6" />
-              <span class="form-error" data-error-for="signup-password"></span>
-            </div>
-            <button type="submit" class="btn btn-primary btn-block">Create Account</button>
-            <div class="form-status" role="status" aria-live="polite" hidden></div>
-          </form>
-        </div>
       </div>
     </div>
   </section>

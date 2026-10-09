@@ -50,8 +50,7 @@
           '<button type="button" class="nav-icon-btn nav-dir-btn" data-dir-toggle aria-label="Toggle text direction" title="Toggle direction">' +
             '<span class="dir-ltr">LTR</span><span class="dir-rtl">RTL</span>' +
           '</button>' +
-          '<a href="' + url('pages/login.html') + '" class="nav-login"' + activeFor('login.html') + '>Login</a>' +
-          '<a href="' + url('pages/contact.html') + '" class="nav-join">Enroll Now</a>' +
+          '<a href="' + url('pages/login.html') + '" class="nav-join">Login</a>' +
           '<button class="hamburger" id="hamburger-btn" aria-label="Toggle mobile menu" aria-expanded="false">' +
             '<span></span><span></span><span></span>' +
           '</button>' +
@@ -70,18 +69,15 @@
             '</button>' +
           '</div>' +
         '</div>' +
-        '<a href="' + url('index.html') + '">Home 1</a>' +
+        '<a href="' + url('index.html') + '">Home</a>' +
         '<a href="' + url('pages/home-2.html') + '">Home 2</a>' +
         '<a href="' + url('pages/about.html') + '">About</a>' +
         '<a href="' + url('pages/services.html') + '">Services</a>' +
         '<a href="' + url('pages/blog.html') + '">Blog</a>' +
         '<a href="' + url('pages/pricing.html') + '">Pricing</a>' +
-        '<a href="' + url('pages/faq.html') + '">FAQ</a>' +
         '<a href="' + url('pages/contact.html') + '">Contact</a>' +
-        '<a href="' + url('pages/login.html') + '"' + activeFor('login.html') + '>Student Login</a>' +
-        '<a href="' + url('pages/signup.html') + '"' + activeFor('signup.html') + '>Sign Up</a>' +
         '<div class="mobile-menu-actions">' +
-          '<a href="' + url('pages/contact.html') + '" class="btn btn-primary">Enroll Now</a>' +
+          '<a href="' + url('pages/login.html') + '" class="btn btn-primary">Login</a>' +
         '</div>' +
       '</div>' +
     '</nav>';
