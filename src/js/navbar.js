@@ -57,18 +57,7 @@
         '</div>' +
       '</div>' +
       '<div class="mobile-menu" id="mobile-menu" role="dialog" aria-label="Mobile navigation">' +
-        '<div class="mobile-menu-head">' +
-          '<span class="mobile-menu-title">Menu</span>' +
-          '<div class="mobile-menu-toggles">' +
-            '<button type="button" class="nav-icon-btn" data-theme-toggle aria-label="Toggle theme">' +
-              '<svg class="icon-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>' +
-              '<svg class="icon-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>' +
-            '</button>' +
-            '<button type="button" class="nav-icon-btn nav-dir-btn" data-dir-toggle aria-label="Toggle direction">' +
-              '<span class="dir-ltr">LTR</span><span class="dir-rtl">RTL</span>' +
-            '</button>' +
-          '</div>' +
-        '</div>' +
+        
         '<a href="' + url('index.html') + '">Home</a>' +
         '<a href="' + url('pages/home-2.html') + '">Home 2</a>' +
         '<a href="' + url('pages/about.html') + '">About</a>' +
