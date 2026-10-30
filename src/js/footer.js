@@ -36,8 +36,7 @@
               '<a href="' + url('pages/pricing.html') + '">Pricing</a>' +
               '<a href="' + url('pages/blog.html') + '">Blog</a>' +
               '<a href="' + url('pages/faq.html') + '">FAQ</a>' +
-              '<a href="' + url('pages/login.html') + '">Student Login</a>' +
-              '<a href="' + url('pages/signup.html') + '">Sign Up</a>' +
+              '<a href="' + url('pages/contact.html') + '">Contact Us</a>' +
             '</nav>' +
           '</div>' +
           '<div class="footer-col">' +

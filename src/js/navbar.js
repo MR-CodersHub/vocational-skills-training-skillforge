@@ -50,23 +50,23 @@
           '<button type="button" class="nav-icon-btn nav-dir-btn" data-dir-toggle aria-label="Toggle text direction" title="Toggle direction">' +
             '<span class="dir-ltr">LTR</span><span class="dir-rtl">RTL</span>' +
           '</button>' +
-          '<a href="' + url('pages/login.html') + '" class="nav-join">Login</a>' +
+          '<a href="' + url('pages/services.html') + '" class="nav-join">Explore Courses</a>' +
           '<button class="hamburger" id="hamburger-btn" aria-label="Toggle mobile menu" aria-expanded="false">' +
             '<span></span><span></span><span></span>' +
           '</button>' +
         '</div>' +
       '</div>' +
       '<div class="mobile-menu" id="mobile-menu" role="dialog" aria-label="Mobile navigation">' +
-        
-        '<a href="' + url('index.html') + '">Home</a>' +
-        '<a href="' + url('pages/home-2.html') + '">Home 2</a>' +
-        '<a href="' + url('pages/about.html') + '">About</a>' +
-        '<a href="' + url('pages/services.html') + '">Services</a>' +
-        '<a href="' + url('pages/blog.html') + '">Blog</a>' +
-        '<a href="' + url('pages/pricing.html') + '">Pricing</a>' +
-        '<a href="' + url('pages/contact.html') + '">Contact</a>' +
+        '<a href="' + url('index.html') + '"' + activeFor('index.html') + '>Home</a>' +
+        '<a href="' + url('pages/home-2.html') + '"' + activeFor('home-2.html') + '>Home 2</a>' +
+        '<a href="' + url('pages/about.html') + '"' + activeFor('about.html') + '>About</a>' +
+        '<a href="' + url('pages/services.html') + '"' + activeFor('services.html') + '>Services</a>' +
+        '<a href="' + url('pages/blog.html') + '"' + activeFor('blog.html') + '>Blog</a>' +
+        '<a href="' + url('pages/pricing.html') + '"' + activeFor('pricing.html') + '>Pricing</a>' +
+        '<a href="' + url('pages/contact.html') + '"' + activeFor('contact.html') + '>Contact</a>' +
         '<div class="mobile-menu-actions">' +
-          '<a href="' + url('pages/login.html') + '" class="btn btn-primary">Login</a>' +
+          '<a href="' + url('pages/services.html') + '" class="btn btn-primary">Explore Courses</a>' +
+          '<a href="' + url('pages/contact.html') + '" class="btn btn-outline">Enquire Now</a>' +
         '</div>' +
       '</div>' +
     '</nav>';

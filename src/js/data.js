@@ -16,7 +16,7 @@ window.SF_DATA = (function () {
       batch: 'Day & Evening',
       cert: 'SkillForge Certified Electrical Technician',
       fee: 899,
-      image: 'https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=900&q=85&auto=format&fit=crop',
+      image: 'https://images.unsplash.com/photo-1558346490-a72e53ae2d4f?w=900&q=85&auto=format&fit=crop',
       summary: 'Domestic and industrial wiring, panel installation, testing, fault-finding and electrical safety to national standards.',
       overview: [
         'The Electrical Technician program takes you from the fundamentals of electricity to confident, code-compliant installation and fault-finding. You spend the majority of every week on live boards and real circuits, guided by working electricians.',
@@ -52,7 +52,7 @@ window.SF_DATA = (function () {
       batch: 'Day & Weekend',
       cert: 'Certified Welder (Multi-Process)',
       fee: 799,
-      image: 'https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=900&q=85&auto=format&fit=crop',
+      image: 'https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=900&q=85&auto=format&fit=crop',
       summary: 'MIG, TIG and arc welding plus cutting, joining and metal fabrication for construction and industrial work.',
       overview: [
         'This hands-on program develops the eye, hand and safety discipline of a professional welder. You will practise each process until your beads are consistent and inspection-ready.',
@@ -124,7 +124,7 @@ window.SF_DATA = (function () {
       batch: 'Day & Evening',
       cert: 'HVAC/R Service Technician',
       fee: 949,
-      image: 'https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=900&q=85&auto=format&fit=crop',
+      image: 'https://images.unsplash.com/photo-1621905252507-b35492cc74b4?w=900&q=85&auto=format&fit=crop',
       summary: 'Install, service and troubleshoot heating, ventilation, air conditioning and refrigeration systems.',
       overview: [
         'HVAC technicians keep offices, homes and cold chains running. This course teaches you the mechanical and electrical skills needed to install, maintain and repair these systems.',
@@ -160,7 +160,7 @@ window.SF_DATA = (function () {
       batch: 'Evening & Weekend',
       cert: 'Solar PV Installer',
       fee: 649,
-      image: 'https://images.unsplash.com/photo-1509391366360-2e959784a276?w=900&q=85&auto=format&fit=crop',
+      image: 'https://images.unsplash.com/photo-1497440001374-f26997328c1b?w=900&q=85&auto=format&fit=crop',
       summary: 'Design, install, wire and commission solar photovoltaic systems for homes and businesses.',
       overview: [
         'Renewable energy is one of the fastest-growing trades. This focused program teaches you to safely design and install solar photovoltaic systems from the roof to the inverter and the grid connection.',
@@ -258,7 +258,7 @@ window.SF_DATA = (function () {
       date: '05 Jan 2026',
       author: 'Marcus Reid',
       readTime: '8 min read',
-      image: 'https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=900&q=85&auto=format&fit=crop',
+      image: 'https://images.unsplash.com/photo-1517420704952-d9f39e95b43e?w=900&q=85&auto=format&fit=crop',
       excerpt: 'Electricity does not give second chances. These ten rules keep trainees safe from day one and build habits employers respect.',
       tags: ['Electrical', 'Safety', 'Beginners'],
       content: [
@@ -293,7 +293,7 @@ window.SF_DATA = (function () {
       date: '28 Dec 2025',
       author: 'Zoe Almeira',
       readTime: '9 min read',
-      image: 'https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=900&q=85&auto=format&fit=crop',
+      image: 'https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122?w=900&q=85&auto=format&fit=crop',
       excerpt: 'From your first bead to a six-figure offshore role, here is how a welding career can grow — and what to learn at each stage.',
       tags: ['Welding', 'Career', 'Salary'],
       content: [
@@ -523,7 +523,7 @@ window.SF_DATA = (function () {
     { name: 'Marcus Reid', role: 'Founder & Head of Training', image: 'https://images.unsplash.com/photo-1548690312-e3b507d8c110?w=600&q=85&auto=format&fit=crop', bio: '20 years on the tools and in technical education, Marcus built SkillForge around one belief: skills should lead directly to work.' },
     { name: 'Zoe Almeira', role: 'Director of Curriculum', image: 'https://images.unsplash.com/photo-1609899464264-4afbdca4a1ac?w=600&q=85&auto=format&fit=crop', bio: 'A former vocational assessor, Zoe designs our competency-based programs with employers, not for them.' },
     { name: 'James Okafor', role: 'Head of Placement', image: 'https://images.unsplash.com/photo-1567013127542-490d757e51fc?w=600&q=85&auto=format&fit=crop', bio: 'James leads our employer partnerships and coaches every graduate through interviews until they are hired.' },
-    { name: 'Priya Nair', role: 'Lead Instructor — Mechanical', image: 'https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?w=600&q=85&auto=format&fit=crop', bio: 'Priya trains our HVAC and mechanical cohorts, and writes the fault-finding drills learners love.' }
+    { name: 'Priya Nair', role: 'Lead Instructor — Mechanical', image: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=600&q=85&auto=format&fit=crop', bio: 'Priya trains our HVAC and mechanical cohorts, and writes the fault-finding drills learners love.' }
   ];
 
   /* ─────────── TESTIMONIALS ─────────── */
